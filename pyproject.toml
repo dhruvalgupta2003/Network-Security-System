@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "network security system"
+version = "0.1.0"
+description = "End to End MLops pipeline for network security"
+authors = ["dhruvalgupta2003 <dhruvalgupta2003@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-dotenv = "^1.0.1"
+pandas = "^2.2.3"
+numpy = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
